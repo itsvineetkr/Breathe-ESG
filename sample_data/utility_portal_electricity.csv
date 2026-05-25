@@ -1,0 +1,15 @@
+Account Number,Meter ID,Service Address,Start Date,End Date,Usage (kWh),Peak Demand,Rate Schedule,Amount Due,Currency
+ACC-4421-09,MTR-BER-001,Berliner Str. 45 Berlin Plant,2025-01-01,2025-01-31,48250,320,Industrial Tariff B,6840.50,EUR
+ACC-4421-09,MTR-BER-002,Berliner Str. 45 Berlin Plant (Warehouse),2025-01-01,2025-01-31,12800,85,Industrial Tariff B,1820.00,EUR
+ACC-7832-14,MTR-MUC-001,Münchner Ring 12 Munich Office,2025-01-01,2025-01-31,8900,62,Commercial Tariff C,1280.50,EUR
+ACC-9901-22,MTR-HAM-001,Hafenweg 3 Hamburg Port,2025-01-03,2025-02-02,31500,245,Industrial Tariff A,4410.00,EUR
+ACC-4421-09,MTR-BER-001,Berliner Str. 45 Berlin Plant,2025-02-01,2025-02-28,44100,295,Industrial Tariff B,6255.90,EUR
+ACC-4421-09,MTR-BER-002,Berliner Str. 45 Berlin Plant (Warehouse),2025-02-01,2025-02-28,11600,78,Industrial Tariff B,1652.80,EUR
+ACC-7832-14,MTR-MUC-001,Münchner Ring 12 Munich Office,2025-02-01,2025-02-28,8200,58,Commercial Tariff C,1183.60,EUR
+ACC-9901-22,MTR-HAM-001,Hafenweg 3 Hamburg Port,2025-02-03,2025-03-05,29800,230,Industrial Tariff A,4172.00,EUR
+ACC-4421-09,MTR-BER-001,Berliner Str. 45 Berlin Plant,2025-03-01,2025-03-31,52100,340,Industrial Tariff B,7393.80,EUR
+ACC-4421-09,MTR-BER-002,Berliner Str. 45 Berlin Plant (Warehouse),2025-03-01,2025-03-31,13400,92,Industrial Tariff B,1905.60,EUR
+ACC-7832-14,MTR-MUC-001,Münchner Ring 12 Munich Office,2025-03-01,2025-03-31,9400,68,Commercial Tariff C,1359.80,EUR
+ACC-0011-55,MTR-FRA-001,Flughafenstr. 8 Frankfurt Depot,2025-01-01,2025-03-31,125000,480,Industrial Tariff A,18750.00,EUR
+ACC-7832-14,MTR-MUC-002,Münchner Ring 12 Munich Data Centre,2025-01-01,2025-01-31,0,0,Commercial Tariff C,45.00,EUR
+ACC-5512-88,MTR-BRE-001,Industriepark 22 Bremen,2025-02-15,2025-03-14,18900,140,Industrial Tariff B,2740.50,EUR

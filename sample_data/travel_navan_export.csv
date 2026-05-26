@@ -1,0 +1,24 @@
+Trip ID,Traveler Name,Traveler Email,Booking Date,Travel Date,Return Date,Segment Type,Origin,Destination,Flight Class,Carrier,Hotel Name,Nights,Distance (km),Amount,Currency,Cost Center
+TRP-20250103-001,Anna Schmidt,a.schmidt@acme.com,2024-12-18,2025-01-08,2025-01-10,Air,FRA,LHR,Economy,Lufthansa,,,650,420,EUR,Sales
+TRP-20250103-001,Anna Schmidt,a.schmidt@acme.com,2024-12-18,2025-01-08,2025-01-10,Hotel,,,,,Hilton London Paddington,2,,285,EUR,Sales
+TRP-20250103-001,Anna Schmidt,a.schmidt@acme.com,2024-12-18,2025-01-10,,Air,LHR,FRA,Economy,Lufthansa,,,650,420,EUR,Sales
+TRP-20250115-002,Marc Dubois,m.dubois@acme.com,2025-01-02,2025-01-20,2025-01-24,Air,FRA,JFK,Business,Lufthansa,,,6200,1850,EUR,Management
+TRP-20250115-002,Marc Dubois,m.dubois@acme.com,2025-01-02,2025-01-20,2025-01-24,Hotel,,,,,Marriott Times Square,4,,1240,EUR,Management
+TRP-20250115-002,Marc Dubois,m.dubois@acme.com,2025-01-02,2025-01-24,,Air,JFK,FRA,Business,Lufthansa,,,6200,1850,EUR,Management
+TRP-20250118-003,Lena Muller,l.mueller@acme.com,2025-01-05,2025-01-22,,Air,MUC,CDG,Economy,Air France,,,684,195,EUR,Engineering
+TRP-20250118-003,Lena Muller,l.mueller@acme.com,2025-01-05,2025-01-22,,Taxi,,,,,,,12,45,EUR,Engineering
+TRP-20250118-003,Lena Muller,l.mueller@acme.com,2025-01-05,2025-01-22,,Taxi,,,,,,,28,52,EUR,Engineering
+TRP-20250201-004,James Cooper,j.cooper@acme.com,2025-01-20,2025-02-05,2025-02-07,Air,LHR,SIN,Economy,Singapore Airlines,,,10841,780,GBP,Consulting
+TRP-20250201-004,James Cooper,j.cooper@acme.com,2025-01-20,2025-02-05,2025-02-07,Hotel,,,,,Marina Bay Sands,2,,890,SGD,Consulting
+TRP-20250201-004,James Cooper,j.cooper@acme.com,2025-01-20,2025-02-07,,Air,SIN,LHR,Economy,Singapore Airlines,,,10841,780,GBP,Consulting
+TRP-20250210-005,Sarah Jones,s.jones@acme.com,2025-01-30,2025-02-12,2025-02-13,Air,LHR,CDG,Economy,British Airways,,,340,210,GBP,HR
+TRP-20250210-005,Sarah Jones,s.jones@acme.com,2025-01-30,2025-02-12,2025-02-13,Hotel,,,,,Novotel Paris Centre,1,,185,EUR,HR
+TRP-20250218-006,Thomas Berg,t.berg@acme.com,2025-02-05,2025-02-18,2025-02-22,Air,AMS,DXB,Business,KLM,,,5508,920,EUR,BD
+TRP-20250218-006,Thomas Berg,t.berg@acme.com,2025-02-05,2025-02-18,2025-02-22,Hotel,,,,,Atlantis The Palm,4,,2200,EUR,BD
+TRP-20250218-006,Thomas Berg,t.berg@acme.com,2025-02-05,2025-02-22,,Air,DXB,AMS,Business,KLM,,,5508,920,EUR,BD
+TRP-20250301-007,Julia Weber,j.weber@acme.com,2025-02-15,2025-03-05,,Air,FRA,XYZ,Economy,Unknown,,,0,95,EUR,Sales
+TRP-20250310-008,Klaus Fischer,k.fischer@acme.com,2025-02-28,2025-03-12,,Air,BER,MUC,Economy,Lufthansa,,,,95,EUR,IT
+TRP-20250310-008,Klaus Fischer,k.fischer@acme.com,2025-02-28,2025-03-12,,Rail,,,,,,,1056,85,EUR,IT
+TRP-20250320-009,Priya Patel,p.patel@acme.com,2025-03-05,2025-03-20,2025-03-25,Air,LHR,BOM,Economy,British Airways,,,7190,580,GBP,Consulting
+TRP-20250320-009,Priya Patel,p.patel@acme.com,2025-03-05,2025-03-20,2025-03-25,Hotel,,,,,ITC Grand Mumbai,5,,1100,INR,Consulting
+TRP-20250320-009,Priya Patel,p.patel@acme.com,2025-03-05,2025-03-25,,Air,BOM,LHR,Economy,British Airways,,,7190,580,GBP,Consulting

@@ -1,0 +1,43 @@
+# Production — built images, gunicorn + nginx
+# Usage: docker compose -f docker-compose.prod.yml up --build
+# Requires a .env.prod file (copy .env.example and fill in real values)
+
+services:
+  db:
+    image: postgres:16-alpine
+    env_file: .env.prod
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    command: >
+      sh -c "python wait_for_db.py &&
+             python manage.py migrate --noinput &&
+             python manage.py collectstatic --noinput &&
+             gunicorn breathe.wsgi --bind 0.0.0.0:8000 --workers 3 --log-file -"
+    restart: on-failure
+    env_file: .env.prod
+    volumes:
+      - media_data:/app/media
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  media_data:

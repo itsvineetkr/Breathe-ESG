@@ -7,10 +7,6 @@ A Django REST + React application that ingests ESG emissions data from three ent
 - **App:** https://breathe.vineetkr.me/
 - **API:** https://breatheback.vineetkr.me/
 
-**Demo credentials:**
-- Admin: `admin@demo.com` / `breathe2025`
-- Analyst: `analyst@demo.com` / `breathe2025`
-
 ## Architecture
 
 ```

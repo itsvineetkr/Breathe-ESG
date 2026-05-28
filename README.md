@@ -56,21 +56,6 @@ Sample files in `sample_data/` can be uploaded via the Upload page:
 
 Each file contains intentionally realistic edge cases (negative quantities, unknown materials, long billing periods, missing airport codes) to demonstrate the flagging system.
 
-## Deployment (Railway)
-
-1. Create a Railway project
-2. Add a PostgreSQL plugin — Railway auto-sets `DATABASE_URL`
-3. Backend service:
-   - Root directory: `backend/`
-   - Start command: `gunicorn breathe.wsgi --log-file -`
-   - Environment variables: `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS`
-4. Run migrations: `python manage.py migrate`
-5. Frontend service:
-   - Root directory: `frontend/`
-   - Build command: `npm run build`
-   - Start command: static file serving (e.g., via `serve -s dist`)
-   - Set `VITE_API_BASE_URL` if frontend and backend are on different domains
-
 ## Key design documents
 
 - [MODEL.md](./MODEL.md) — Data model rationale

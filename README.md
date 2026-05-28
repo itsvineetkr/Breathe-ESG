@@ -4,8 +4,8 @@ A Django REST + React application that ingests ESG emissions data from three ent
 
 ## Live Demo
 
-- **App:** https://breathe-esg.up.railway.app (deploy URL — update after deployment)
-- **API:** https://breathe-esg-backend.up.railway.app/api/
+- **App:** https://breathe.vineetkr.me/
+- **API:** https://breatheback.vineetkr.me/
 
 **Demo credentials:**
 - Admin: `admin@demo.com` / `breathe2025`
